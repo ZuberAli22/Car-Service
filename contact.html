@@ -2,20 +2,39 @@
 <html lang="en">
 <head>
         <title>Contact</title>
+        <link href="shared.css" rel="stylesheet">
+        <link
+        href="https://fonts.googleapis.com/css2?family=Oleo+Script:wght@700&family=Quicksand:wght@500&family=Raleway:wght@700&display=swap"
+    rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Akshar:wght@300&family=Fira+Sans:wght@400;600&family=Oswald:wght@600&family=Raleway:wght@700&display=swap"
+        rel="stylesheet">
 </head>
  <style>
   .body 
   {
         padding: 0px;
         margin: 0px;
+        font-family: 'fira sans';
+       
      
     }
+header{
   
+  position: relative;
+  background-color: black;
+}
+  
+main{
+  background-color: black;
+ text-align: center;
+
+}
 .header form{
    border: 2px solid black; 
    padding: 20px;
-   margin-top: 50px;
-   margin-left: 270px;
+   margin-top:70px;
+   
   background-image: url(p1.jpg);
   image-resolution: 1;
    background-size: cover;
@@ -33,7 +52,7 @@ form input{
  
   background-color: transparent;
   color:rgb(255, 255, 255);
-  font-family: "Fira sans";
+  font-family: "fira sans";
 text-shadow:  rgb(255, 255, 255);
 }
 
@@ -49,6 +68,7 @@ input[type=text], select, textarea {
       }
       input[type=Email]{
         width: 100%;
+        
         padding: 12px;
         border: 1px solid #ccc;
         border-radius: 4px;
@@ -57,20 +77,31 @@ input[type=text], select, textarea {
         margin-bottom: 16px;
         resize: vertical;
       }
-   
+
       input[type=submit] {
         border: none;
         border-radius: 4px;
         cursor: pointer;
-        width: 400px;
-
+        width: 150px;
+        height: 30px;
+      
       }
     
 </style> 
 <body>
       
-     
-		<div class="header form">
+  <header>
+    <div id="page-logo">
+        <a href="index.html">PowerUp Stop</a>
+    </div>
+    <nav>
+        <ul>
+            <li> <a href="new.html">Services </a></li>
+            <li> <a href="http://www.instagram.com">About</a></li>
+        </ul>
+    </nav>
+</header>
+<main>	<div class="header form">
 			<div id="box">
 			<form>  
 				<table>
@@ -134,7 +165,8 @@ input[type=text], select, textarea {
 				
 			</form>
 			</div>
-		</div>
+		</div></main>
+	
 	
 </body>
 </html>
